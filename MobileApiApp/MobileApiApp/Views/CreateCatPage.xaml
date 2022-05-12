@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApiApp.Views.CreateCatPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="введите текст" Text="{Binding name}"/>
+            <Entry Placeholder="цвет" Text="{Binding color}"/>
+            <Switch IsToggled="{Binding gender}" />
+            <Button Clicked="SaveButton_Clicked" Text="Сохранить" />
+            <Button Clicked="DeleteButton_Clicked" Text="Удалить" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

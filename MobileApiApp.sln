@@ -5,7 +5,11 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileApiApp.Android", "MobileApiApp\MobileApiApp.Android\MobileApiApp.Android.csproj", "{9C2A5191-BD86-45B2-9289-B65F0CD3B167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileApiApp", "MobileApiApp\MobileApiApp\MobileApiApp.csproj", "{16FBA904-3AE8-4316-8E4D-743ED99401EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobileApiApp", "MobileApiApp\MobileApiApp\MobileApiApp.csproj", "{16FBA904-3AE8-4316-8E4D-743ED99401EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi.Android", "WeatherApi\WeatherApi.Android\WeatherApi.Android.csproj", "{B1EFE5E1-3A14-4C0A-9BCB-2C27BF5EE7B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi", "WeatherApi\WeatherApi\WeatherApi.csproj", "{141B6F1E-4734-4E3D-9676-3565DFF909FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,16 @@ Global
 		{16FBA904-3AE8-4316-8E4D-743ED99401EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16FBA904-3AE8-4316-8E4D-743ED99401EF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{16FBA904-3AE8-4316-8E4D-743ED99401EF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B1EFE5E1-3A14-4C0A-9BCB-2C27BF5EE7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EFE5E1-3A14-4C0A-9BCB-2C27BF5EE7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EFE5E1-3A14-4C0A-9BCB-2C27BF5EE7B9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B1EFE5E1-3A14-4C0A-9BCB-2C27BF5EE7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EFE5E1-3A14-4C0A-9BCB-2C27BF5EE7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EFE5E1-3A14-4C0A-9BCB-2C27BF5EE7B9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{141B6F1E-4734-4E3D-9676-3565DFF909FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141B6F1E-4734-4E3D-9676-3565DFF909FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141B6F1E-4734-4E3D-9676-3565DFF909FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141B6F1E-4734-4E3D-9676-3565DFF909FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
